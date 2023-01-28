@@ -1,0 +1,35 @@
+.navbar{
+    color: #fff;
+    padding: 0px;
+    background-color: #228288;
+    width: 100%;
+}
+
+.main-nav{
+    padding: 0rem;
+    margin:auto;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.logo{
+    font-size: 21px;
+    line-height: 1rem;
+}
+
+p{
+    line-height: 1.55;
+    font-size: 16px;
+}
+
+.right-side{
+    
+}
