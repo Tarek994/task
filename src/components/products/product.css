@@ -7,17 +7,15 @@
 
 .first{
     width: 364px;
-    
     margin: 0px auto;
     padding: 0px;
-
     cursor: pointer;
     box-shadow: 0px 5px 25px rgba(1 1 1 /15%);
     
 }
 
 .first-1{
-    width: 364px;
+    width: 370px;
     height: 190px;
     margin: 0px auto;
     padding: 15px 28px 28px;
@@ -135,6 +133,16 @@
 
 .title-body{
     color: #228288;
+    font-size: 17px;
+    font-weight: 700;
+}
+.title-body-1{
+    color: #370358;
+    font-size: 17px;
+    font-weight: 700;
+}
+.title-body-2{
+    color: #d68832;
     font-size: 17px;
     font-weight: 700;
 }

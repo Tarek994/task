@@ -88,7 +88,7 @@ const MyCard = () => {
             <button className="main-btn col-12">TO CHOOSE</button>
             </div>
             <div className="main-body">
-                        <p className='title-body'>Membership in the tenant angel club</p>
+                        <p className='title-body-1'>Membership in the tenant angel club</p>
                     <div className="content-body col-12">
                         <p className='col-12'>
                             <span className='col-8'
@@ -146,7 +146,7 @@ const MyCard = () => {
             <button className="main-btn col-12">TO CHOOSE</button>
             </div>
             <div className="main-body">
-                        <p className='title-body'>Membership in the tenant angel club</p>
+                        <p className='title-body-2'>Membership in the tenant angel club</p>
                     <div className="content-body col-12">
                         <p className='col-12'>
                             <span className='col-8'
