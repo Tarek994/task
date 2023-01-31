@@ -90,6 +90,12 @@
 }
 
 
+/*  The text in inside the */
+.css-117w1su-MuiStepIcon-text {
+    display: none ;
+    
+}
+
 @media (max-width:1024px){
    
     .main-stepper{
