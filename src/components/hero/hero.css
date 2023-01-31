@@ -96,6 +96,24 @@
     
 }
 
+/* The margin-top of the label of the circle stepper  */
+#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(1) > span > span.MuiStepLabel-labelContainer.MuiStepLabel-alternativeLabel.css-1vyamtt-MuiStepLabel-labelContainer > span{
+    margin-top: 1px;
+}
+#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(2) > span > span.MuiStepLabel-labelContainer.MuiStepLabel-alternativeLabel.css-1vyamtt-MuiStepLabel-labelContainer > span{
+    margin-top: 1px;
+}
+#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(3) > span > span.MuiStepLabel-labelContainer.MuiStepLabel-alternativeLabel.css-1vyamtt-MuiStepLabel-labelContainer > span{
+    margin-top: 1px;
+}
+#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(4) > span > span.MuiStepLabel-labelContainer.MuiStepLabel-alternativeLabel.css-1vyamtt-MuiStepLabel-labelContainer > span{
+    margin-top: 1px;
+}
+
+
+
+
+
 @media (max-width:1024px){
    
     .main-stepper{
@@ -111,3 +129,4 @@
     }
     
 }
+
