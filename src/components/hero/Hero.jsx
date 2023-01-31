@@ -5,10 +5,10 @@ import StepLabel from '@mui/material/StepLabel';
 import "./hero.css";
 
 const steps = [
-  'first ',
-  'seconde ',
-  'third ',
-  'fourth ',
+  'offer ',
+  'specify dates ',
+  'pay ',
+  'become a member',
 ];
 
 export default function HorizontalLabelPositionBelowStepper() {
