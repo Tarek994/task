@@ -47,6 +47,27 @@
     font-size: 22px !important;
 }
 
+/*  The Line between circle */
+
+
+#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(2) > div{
+    left: calc(-50% + 11px) !important;
+    right: calc(50% + 11px);
+    top: 8px;
+}
+#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(3) > div{
+    left: calc(-50% + 11px) !important;
+    right: calc(50% + 11px);
+    top: 8px;
+}
+#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(4) > div{
+    left: calc(-50% + 11px) !important;
+    right: calc(50% + 11px);
+    top: 8px;
+    
+}
+
+
 @media (max-width:1024px){
    
     .main-stepper{
