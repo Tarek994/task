@@ -131,6 +131,18 @@
     margin: 14px 0px ;
     width: 100%;
 }
+.see-more-btn {
+    color: rgb(34, 130, 136);
+    display: flex;
+    margin: 10px;
+    border: none;
+    background: none;
+    display: none;
+
+}
+.show {
+    display: block;
+  }
 
 .title-body{
     color: #228288;
@@ -196,6 +208,25 @@
     }
     .first-side{
         justify-content: space-between;
+        width: 92%;
+        margin: auto;
     }
+    .main-body {
+        display: none;
+      }
+      
+      .main-body.show {
+        display: block;
+      }
+      .seconde-content-body{
+        padding-top: 1rem;
+      }
+      .hidden {
+        display: none;
+      }
+      .see-more-btn {
+        display:block ;
+      }
+
     
 }
