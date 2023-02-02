@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './product.css';
 import { BsBookmarkHeart } from "react-icons/bs";
 import { GrDocument } from "react-icons/gr";
@@ -7,7 +7,23 @@ import {GiTreasureMap} from "react-icons/gi"
 import {IoMdFlashlight} from "react-icons/io"
 import {BiTimer} from "react-icons/bi"
 
-const MyCard = () => {
+
+
+const MyCard = ({ id }) => {
+
+    const [showMore, setShowMore] = useState({
+        card1: false,
+        card2: false,
+        card3: false,
+      });
+      
+    const handleShowMore = (id) => {
+        setShowMore({
+          ...showMore,
+          [id]: !showMore[id],
+        });
+      };
+
   return (
     <div className='main-cards '>
         <div className='first '>
@@ -29,7 +45,16 @@ const MyCard = () => {
             </div>
             <button className="main-btn col-12">TO CHOOSE</button>
             </div>
-            <div className="main-body">
+
+            {/* collapse */}
+
+            <button 
+                className="see-more-btn  "
+                onClick={() => handleShowMore(id)}
+            >
+                {showMore[id] ? ' Less' : 'See more'}
+            </button>
+            <div className={`main-body ${showMore[id] ? 'show' : 'hide'}`}>
                         <p className='title-body'>Membership in the tenant angel club</p>
                     <div className="content-body col-12">
                         <p className='col-12'>
@@ -42,7 +67,8 @@ const MyCard = () => {
                                         fontWeight: 600,
                                         minWidth:"70%",
                                         fontSize:13}} >
-                                        Free patterns and templates</span>
+                                        Free patterns and templates
+                                    </span>
                         </p>
 
                         <p><span style={{fontSize:20,minWidth:"30%",opacity: 0.3}}><GrGroup/></span><span style={{paddingLeft:10,fontWeight: 600,minWidth:"70%",fontSize:13 }} >Support and appointment<br/></span><span style={{paddingLeft:15,fontWeight: 600,fontSize:13,paddingLeft:30}}> the tenant angel team</span></p>
@@ -87,7 +113,16 @@ const MyCard = () => {
             </div>
             <button className="main-btn col-12">TO CHOOSE</button>
             </div>
-            <div className="main-body">
+            {/* collapse */}
+
+            <button 
+                className="see-more-btn  "
+                onClick={() => handleShowMore(id)}
+            >
+                {showMore[id] ? ' Less' : 'See more'}
+            </button>
+            <div className={`main-body ${showMore[id] ? 'show' : 'hide'}`}>
+            
                         <p className='title-body-1'>Membership in the tenant angel club</p>
                     <div className="content-body col-12">
                         <p className='col-12'>
@@ -145,7 +180,16 @@ const MyCard = () => {
             </div>
             <button className="main-btn col-12">TO CHOOSE</button>
             </div>
-            <div className="main-body">
+                {/* collapse */}
+
+            <button 
+                className="see-more-btn  "
+                onClick={() => handleShowMore(id)}
+            >
+                {showMore[id] ? ' Less' : 'See more'}
+            </button>
+            <div className={`main-body ${showMore[id] ? 'show' : 'hide'}`}>
+            
                         <p className='title-body-2'>Membership in the tenant angel club</p>
                     <div className="content-body col-12">
                         <p className='col-12'>
@@ -180,14 +224,8 @@ const MyCard = () => {
                     </div>
             </div>
             
-            
-            
 
         </div>
-
-
-
-        
 
     </div>
     
