@@ -1,6 +1,5 @@
 import "../navbar/Navbar.css";
-import {BsTelephoneFill} from "react-icons/bs";
-import logo from "../../assets/logo.svg"
+import { BsTelephoneFill } from "react-icons/bs";
 
 const navbar = () => {
   return (
