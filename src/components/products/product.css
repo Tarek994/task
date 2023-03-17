@@ -1,21 +1,21 @@
-.main-cards{
+.main-cards {
     max-width: 1170px;
     display: flex;
     margin: auto;
-    
+
 
 }
 
-.first{
+.first {
     width: 364px;
     margin: 0px auto;
     padding: 0px;
     cursor: pointer;
     box-shadow: 0px 5px 25px rgba(1 1 1 /15%);
-    
+
 }
 
-.first-1{
+.first-1 {
     width: 370px;
     height: 190px;
     margin: 0px auto;
@@ -26,7 +26,7 @@
     border-radius: 4px;
 }
 
-.first-2{
+.first-2 {
     width: 364px;
     height: 190px;
     margin: 0px auto;
@@ -37,21 +37,24 @@
     background-color: rgb(214, 136, 50);
     border-radius: 4px;
 }
-.top-1{
+
+.top-1 {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     width: 100%;
     background-image: linear-gradient(60deg, rgba(70, 181, 185, 0) 20%, rgb(70, 181, 185) 85%);
     background-color: rgb(34, 130, 136);
 }
-.top-2{
+
+.top-2 {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     width: 100%;
     background-image: linear-gradient(60deg, rgba(157, 26, 136, 0) 20%, rgb(157, 26, 136) 85%);
     background-color: rgb(119, 3, 88);
 }
-.top-3{
+
+.top-3 {
     background-image: linear-gradient(60deg, rgba(240, 184, 37, 0) 20%, rgb(240, 184, 37) 85%);
     background-color: rgb(214, 136, 50);
     border-top-left-radius: 4px;
@@ -60,23 +63,23 @@
 
 }
 
-.first-side{
+.first-side {
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding: 14px 15px 0px ;
+    padding: 14px 15px 0px;
     display: flex;
-    
+
 }
 
-.card-content{
+.card-content {
     display: flex;
     height: 100%;
 }
 
 
 
-.top-content{
+.top-content {
     margin: 0px;
     color: #fff;
     display: flex;
@@ -84,37 +87,40 @@
     flex-direction: column;
 }
 
-.card-content{
+.card-content {
     padding: 0px;
     margin: 0px;
 }
 
 
-.top-content h2{
+.top-content h2 {
     font-size: 35px;
 }
 
-.top-content h1{
+.top-content h1 {
     font-size: 35px;
 }
 
-.year{
+.year {
     font-size: 35px;
     font-weight: 300;
 }
+
 .card-icon {
     display: flex;
     justify-content: center;
     text-align: center;
     padding-left: 30px;
 }
-.card-icon-1{
+
+.card-icon-1 {
     opacity: 0.6;
     font-size: 4rem;
     color: #fff;
-    
+
 }
-.main-btn{
+
+.main-btn {
     width: 85%;
     font-weight: 700;
     border: none;
@@ -124,13 +130,14 @@
     color: rgb(34, 130, 136);
 }
 
-.main-body{
+.main-body {
     text-align: left;
     padding: 18px 30px;
-    min-height:fit-content;
-    margin: 14px 0px ;
+    min-height: fit-content;
+    margin: 14px 0px;
     width: 100%;
 }
+
 .see-more-btn {
     color: rgb(34, 130, 136);
     display: flex;
@@ -140,93 +147,107 @@
     display: none;
 
 }
+
 .show {
     display: block;
-  }
+}
 
-.title-body{
+.title-body {
     color: #228288;
     font-size: 17px;
     font-weight: 700;
 }
-.title-body-1{
+
+.title-body-1 {
     color: #370358;
     font-size: 17px;
     font-weight: 700;
 }
-.title-body-2{
+
+.title-body-2 {
     color: #d68832;
     font-size: 17px;
     font-weight: 700;
 }
 
-.content-body{
+.content-body {
     padding: 0px 15px;
     min-height: 50%;
 }
 
-.seconde-content-body{
+.seconde-content-body {
     padding-top: 8rem;
     min-height: 50%;
 }
 
-.term p{
+.term p {
     text-align: center;
     padding: 2rem 2rem 3rem 2rem;
 }
 
 
-@media (max-width:1180px){
-    .main-cards{
+@media (max-width:1180px) {
+    .main-cards {
         display: flex;
         flex-direction: column;
-        
+
     }
-    .main-stepper{
+
+    .main-stepper {
         margin-bottom: -20px;
     }
-    .first{
+
+    .first {
         margin: 20px auto;
         width: 95%;
     }
-    .main-btn{
+
+    .main-btn {
         font-size: 12px;
         width: 90%;
     }
-    .top-content h1{
+
+    .top-content h1 {
         font-size: 21px;
     }
-    
-    .top-content h2{
+
+    .top-content h2 {
         font-size: 20px;
     }
-    .year{
+
+    .year {
         font-size: 21px;
     }
-    .title-body{
+
+    .title-body {
         font-size: 13px;
     }
-    .first-side{
+
+    .first-side {
         justify-content: space-between;
         width: 92%;
         margin: auto;
     }
+
     .main-body {
         display: none;
-      }
-      
-      .main-body.show {
-        display: block;
-      }
-      .seconde-content-body{
-        padding-top: 1rem;
-      }
-      .hidden {
-        display: none;
-      }
-      .see-more-btn {
-        display:block ;
-      }
+    }
 
-    
+    .main-body.show {
+        display: block;
+    }
+
+    .seconde-content-body {
+        padding-top: 1rem;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .see-more-btn {
+        display: block;
+    }
+
+
 }
