@@ -1,141 +1,265 @@
-.main-stepper{
-    background-color: #f2f2f2;
-    padding-top: 30px;
-    min-height: 224px;
-    width: 100%;
+.main-stepper {
+  background-color: #f2f2f2;
+  padding-top: 30px;
+  min-height: 224px;
+  width: 100%;
 }
 
-.main-title{
-    font-size: 28px;
-    font-weight: 300;
-    margin: 3rem 0 10px;
-    
+.main-title {
+  font-size: 28px;
+  font-weight: 300;
+  margin: 3rem 0 10px;
 }
 
-.stepper{
-    margin: 0px auto;
-    width: 700px;
+.stepper {
+  margin: 0px auto;
+  width: 700px;
 }
 
-.des{
-    margin-bottom:16px;
+.des {
+  margin-bottom: 16px;
 }
 
-.description{
-    margin: 10px 0px;
-    font-size: 21px;
-    font-weight: 320;
+.description {
+  margin: 10px 0px;
+  font-size: 21px;
+  font-weight: 320;
 }
-
 
 /* circles */
-#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(1) > span > span.MuiStepLabel-iconContainer.Mui-active.MuiStepLabel-alternativeLabel.css-vnkopk-MuiStepLabel-iconContainer > svg{
-    color: white !important;
-    border: 4px solid #7a1591 !important;
-    border-radius: 15px !important;
-    font-size: 22px !important;
-}
-#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(2) > span > span.MuiStepLabel-iconContainer.Mui-disabled.MuiStepLabel-alternativeLabel.css-vnkopk-MuiStepLabel-iconContainer > svg{
-    color: #d8d8d8 !important;
-    font-size: 22px !important;
-}
-#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(3) > span > span.MuiStepLabel-iconContainer.Mui-disabled.MuiStepLabel-alternativeLabel.css-vnkopk-MuiStepLabel-iconContainer > svg{
-    color: #d8d8d8 !important;
-    font-size: 22px !important;
-}
-#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(4) > span > span.MuiStepLabel-iconContainer.Mui-disabled.MuiStepLabel-alternativeLabel.css-vnkopk-MuiStepLabel-iconContainer > svg{
-    color: #d8d8d8 !important;
-    font-size: 22px !important;
-}
-/*  First step label */
-#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(1) > span > span.MuiStepLabel-labelContainer.MuiStepLabel-alternativeLabel.css-1vyamtt-MuiStepLabel-labelContainer > span{
-    color: rgb(93 17 109 / 87%) !important;
-    font-weight: 900;
-    font-size: 18px;
+#root
+  > div
+  > div.main-stepper
+  > div
+  > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root
+  > div:nth-child(1)
+  > span
+  > span.MuiStepLabel-iconContainer.Mui-active.MuiStepLabel-alternativeLabel.css-vnkopk-MuiStepLabel-iconContainer
+  > svg {
+  color: white !important;
+  border: 4px solid #7a1591 !important;
+  border-radius: 15px !important;
+  font-size: 22px !important;
 }
 
+#root
+  > div
+  > div.main-stepper
+  > div
+  > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root
+  > div:nth-child(2)
+  > span
+  > span.MuiStepLabel-iconContainer.Mui-disabled.MuiStepLabel-alternativeLabel.css-vnkopk-MuiStepLabel-iconContainer
+  > svg {
+  color: #d8d8d8 !important;
+  font-size: 22px !important;
+}
+
+#root
+  > div
+  > div.main-stepper
+  > div
+  > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root
+  > div:nth-child(3)
+  > span
+  > span.MuiStepLabel-iconContainer.Mui-disabled.MuiStepLabel-alternativeLabel.css-vnkopk-MuiStepLabel-iconContainer
+  > svg {
+  color: #d8d8d8 !important;
+  font-size: 22px !important;
+}
+
+#root
+  > div
+  > div.main-stepper
+  > div
+  > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root
+  > div:nth-child(4)
+  > span
+  > span.MuiStepLabel-iconContainer.Mui-disabled.MuiStepLabel-alternativeLabel.css-vnkopk-MuiStepLabel-iconContainer
+  > svg {
+  color: #d8d8d8 !important;
+  font-size: 22px !important;
+}
+
+/*  First step label */
+#root
+  > div
+  > div.main-stepper
+  > div
+  > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root
+  > div:nth-child(1)
+  > span
+  > span.MuiStepLabel-labelContainer.MuiStepLabel-alternativeLabel.css-1vyamtt-MuiStepLabel-labelContainer
+  > span {
+  color: rgb(93 17 109 / 87%) !important;
+  font-weight: 900;
+  font-size: 18px;
+}
 
 /*  The Line between circle */
 
-
-#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(2) > div{
-    left: calc(-50% + 11px) !important;
-    right: calc(50% + 11px);
-    top: 8px;
-}
-#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(3) > div{
-    left: calc(-50% + 11px) !important;
-    right: calc(50% + 11px);
-    top: 8px;
-}
-#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(4) > div{
-    left: calc(-50% + 11px) !important;
-    right: calc(50% + 11px);
-    top: 8px;
-    
+#root
+  > div
+  > div.main-stepper
+  > div
+  > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root
+  > div:nth-child(2)
+  > div {
+  left: calc(-50% + 11px) !important;
+  right: calc(50% + 11px);
+  top: 8px;
 }
 
+#root
+  > div
+  > div.main-stepper
+  > div
+  > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root
+  > div:nth-child(3)
+  > div {
+  left: calc(-50% + 11px) !important;
+  right: calc(50% + 11px);
+  top: 8px;
+}
+
+#root
+  > div
+  > div.main-stepper
+  > div
+  > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root
+  > div:nth-child(4)
+  > div {
+  left: calc(-50% + 11px) !important;
+  right: calc(50% + 11px);
+  top: 8px;
+}
 
 /* The Border of the Line */
-#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(2) > div > span{
-    display: block;
-    border-color: #d8d8d8;
-    border-top-style: solid;
-    border-top-width: 6px;
+#root
+  > div
+  > div.main-stepper
+  > div
+  > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root
+  > div:nth-child(2)
+  > div
+  > span {
+  display: block;
+  border-color: #d8d8d8;
+  border-top-style: solid;
+  border-top-width: 6px;
 }
 
-#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(3) > div > span{
-    display: block;
-    border-color: #d8d8d8;
-    border-top-style: solid;
-    border-top-width: 6px;
-}
-#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(4) > div > span{
-    display: block;
-    border-color: #d8d8d8;
-    border-top-style: solid;
-    border-top-width: 6px;
+#root
+  > div
+  > div.main-stepper
+  > div
+  > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root
+  > div:nth-child(3)
+  > div
+  > span {
+  display: block;
+  border-color: #d8d8d8;
+  border-top-style: solid;
+  border-top-width: 6px;
 }
 
+#root
+  > div
+  > div.main-stepper
+  > div
+  > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root
+  > div:nth-child(4)
+  > div
+  > span {
+  display: block;
+  border-color: #d8d8d8;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
 
 /*  The text in inside the */
 .css-117w1su-MuiStepIcon-text {
-    display: none ;
-    
+  display: none;
 }
 
 /* The margin-top of the label of the circle stepper  */
-#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(1) > span > span.MuiStepLabel-labelContainer.MuiStepLabel-alternativeLabel.css-1vyamtt-MuiStepLabel-labelContainer > span{
-    margin-top: 1px;
-}
-#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(2) > span > span.MuiStepLabel-labelContainer.MuiStepLabel-alternativeLabel.css-1vyamtt-MuiStepLabel-labelContainer > span{
-    margin-top: 1px;
-}
-#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(3) > span > span.MuiStepLabel-labelContainer.MuiStepLabel-alternativeLabel.css-1vyamtt-MuiStepLabel-labelContainer > span{
-    margin-top: 1px;
-}
-#root > div > div.main-stepper > div > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root > div:nth-child(4) > span > span.MuiStepLabel-labelContainer.MuiStepLabel-alternativeLabel.css-1vyamtt-MuiStepLabel-labelContainer > span{
-    margin-top: 1px;
-    
+#root
+  > div
+  > div.main-stepper
+  > div
+  > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root
+  > div:nth-child(1)
+  > span
+  > span.MuiStepLabel-labelContainer.MuiStepLabel-alternativeLabel.css-1vyamtt-MuiStepLabel-labelContainer
+  > span {
+  margin-top: 1px;
 }
 
-
-
-
-
-@media (max-width:1024px){
-   
-    .main-stepper{
-        background-color: #fff;
-        padding: 20px 0px 0px;
-    }
-    .stepper{
-        width: 100%;
-    }
-    .main-title{
-        margin:10px 0px;
-        font-size: 24px;
-    }
-    
+#root
+  > div
+  > div.main-stepper
+  > div
+  > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root
+  > div:nth-child(2)
+  > span
+  > span.MuiStepLabel-labelContainer.MuiStepLabel-alternativeLabel.css-1vyamtt-MuiStepLabel-labelContainer
+  > span {
+  margin-top: 1px;
 }
 
+#root
+  > div
+  > div.main-stepper
+  > div
+  > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root
+  > div:nth-child(3)
+  > span
+  > span.MuiStepLabel-labelContainer.MuiStepLabel-alternativeLabel.css-1vyamtt-MuiStepLabel-labelContainer
+  > span {
+  margin-top: 1px;
+}
+
+#root
+  > div
+  > div.main-stepper
+  > div
+  > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root
+  > div:nth-child(4)
+  > span
+  > span.MuiStepLabel-labelContainer.MuiStepLabel-alternativeLabel.css-1vyamtt-MuiStepLabel-labelContainer
+  > span {
+  margin-top: 1px;
+}
+
+@media (max-width: 1024px) {
+  .main-stepper {
+    background-color: #fff;
+    padding: 20px 0px 0px;
+  }
+
+  .stepper {
+    width: 100%;
+  }
+
+  .main-title {
+    margin: 10px 0px;
+    font-size: 22px;
+  }
+
+  .description {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  #root
+    > div
+    > div.main-stepper
+    > div
+    > div.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.custom-stepper.css-10mg1vw-MuiStepper-root
+    > div:nth-child(4)
+    > span
+    > span.MuiStepLabel-labelContainer.MuiStepLabel-alternativeLabel.css-1vyamtt-MuiStepLabel-labelContainer
+    > span {
+    font-size: 0.775rem;
+  }
+}
